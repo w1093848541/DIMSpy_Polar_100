@@ -26,7 +26,7 @@ echo "Starting Sample Filter"
 dimspy sample-filter \
 --input ../3_BlankFilter/blankFilter.* \
 --output sampleFilter.$SLURM_JOB_ID \
---min-fraction 1
+--min-fraction 1.0
 
 #options to consider: --within, -rsd_threshold
 
